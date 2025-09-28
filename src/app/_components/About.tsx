@@ -55,7 +55,7 @@ const About = () => {
                   bringing hardware and software together to solve problems at
                   the edge. From microcontrollers to IoT devices, I love the
                   challenge of making limited resources do extraordinary things.
-                  I don&apos;t just code for screens—I code for machines that
+                  I don&apos;t just code for screens, I code for machines that
                   think, move, and connect.
                 </motion.p>
 
@@ -83,7 +83,7 @@ const About = () => {
                   technology and build confidently. My focus is not just on
                   writing clean code but on building meaningful products that
                   empower people, businesses, and communities. I don&apos;t just
-                  ship projects—I ship possibilities.
+                  ship projects, I ship possibilities.
                 </motion.p>
               </>
             )}
@@ -106,13 +106,13 @@ const About = () => {
       <div className="grid grid-cols-1 gap-4 md:relative -mx-6 md:mx-0">
         {/* Top Big Image */}
         <motion.div
-          className="w-full h-72 md:rounded-2xl overflow-hidden shadow-xl group"
+          className="w-full h-72 rounded-2xl overflow-hidden shadow-xl group"
           initial={{ opacity: 0, y: 40 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
         >
           <Image
-            src="/cartoonImg.jpg"
+            src="/gradpic.jpg"
             alt="Main About Image"
             width={1200}
             height={400}
@@ -123,13 +123,13 @@ const About = () => {
         {/* Bottom Two Images */}
         <div className="grid grid-cols-2 gap-4">
           <motion.div
-            className="w-full h-56 md:rounded-2xl overflow-hidden shadow-xl group"
+            className="w-full h-56 rounded-2xl overflow-hidden shadow-xl group"
             initial={{ opacity: 0, x: -40 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.6, delay: 0.2 }}
           >
             <Image
-              src="/cartoonImg.jpg"
+              src="/laptop.jpg"
               alt="About Image 2"
               width={600}
               height={300}
@@ -138,13 +138,13 @@ const About = () => {
           </motion.div>
 
           <motion.div
-            className="w-full h-56 md:rounded-2xl overflow-hidden shadow-xl group"
+            className="w-full h-56 rounded-2xl overflow-hidden shadow-xl group"
             initial={{ opacity: 0, x: 40 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.6, delay: 0.4 }}
           >
             <Image
-              src="/cartoonImg.jpg"
+              src="/robotics.jpg"
               alt="About Image 3"
               width={600}
               height={300}
