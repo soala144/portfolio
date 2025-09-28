@@ -22,7 +22,7 @@ const About = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
         >
-          About <span className="text-green-600">&lt;SoalaDev/&gt;</span>
+          About <span className="text-blue-700">&lt;SoalaDev/&gt;</span>
         </motion.h1>
 
         {/* Content */}
@@ -102,53 +102,56 @@ const About = () => {
         </div>
       </div>
 
-      {/* Right Side: Artistic Images */}
-      {/* Right Side: Modern One-Line Artistic Images */}
-      <div className="relative flex gap-6 justify-center items-center">
+      {/* Right Side: Full-bleed Images */}
+      <div className="grid grid-cols-1 gap-4 md:relative -mx-6 md:mx-0">
+        {/* Top Big Image */}
         <motion.div
-          className="w-64 h-64 rounded-2xl overflow-hidden shadow-xl"
-          initial={{ opacity: 0, x: 40 }}
-          animate={{ opacity: 1, x: 0 }}
+          className="w-full h-72 md:rounded-2xl overflow-hidden shadow-xl group"
+          initial={{ opacity: 0, y: 40 }}
+          animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
         >
           <Image
             src="/cartoonImg.jpg"
-            alt="About Image 1"
-            width={400}
+            alt="Main About Image"
+            width={1200}
             height={400}
-            className="object-cover w-full h-full"
+            className="object-cover w-full h-full transform group-hover:scale-110 transition duration-500"
           />
         </motion.div>
 
-        <motion.div
-          className="w-52 h-52 rounded-2xl overflow-hidden shadow-xl -mt-10"
-          initial={{ opacity: 0, x: -40 }}
-          animate={{ opacity: 1, x: 0 }}
-          transition={{ duration: 0.6, delay: 0.2 }}
-        >
-          <Image
-            src="/cartoonImg.jpg"
-            alt="About Image 2"
-            width={400}
-            height={400}
-            className="object-cover w-full h-full"
-          />
-        </motion.div>
+        {/* Bottom Two Images */}
+        <div className="grid grid-cols-2 gap-4">
+          <motion.div
+            className="w-full h-56 md:rounded-2xl overflow-hidden shadow-xl group"
+            initial={{ opacity: 0, x: -40 }}
+            animate={{ opacity: 1, x: 0 }}
+            transition={{ duration: 0.6, delay: 0.2 }}
+          >
+            <Image
+              src="/cartoonImg.jpg"
+              alt="About Image 2"
+              width={600}
+              height={300}
+              className="object-cover w-full h-full transform group-hover:scale-110 transition duration-500"
+            />
+          </motion.div>
 
-        <motion.div
-          className="w-44 h-44 rounded-2xl overflow-hidden shadow-xl mt-10"
-          initial={{ opacity: 0, y: 40 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.6, delay: 0.4 }}
-        >
-          <Image
-            src="/cartoonImg.jpg"
-            alt="About Image 3"
-            width={400}
-            height={400}
-            className="object-cover w-full h-full"
-          />
-        </motion.div>
+          <motion.div
+            className="w-full h-56 md:rounded-2xl overflow-hidden shadow-xl group"
+            initial={{ opacity: 0, x: 40 }}
+            animate={{ opacity: 1, x: 0 }}
+            transition={{ duration: 0.6, delay: 0.4 }}
+          >
+            <Image
+              src="/cartoonImg.jpg"
+              alt="About Image 3"
+              width={600}
+              height={300}
+              className="object-cover w-full h-full transform group-hover:scale-110 transition duration-500"
+            />
+          </motion.div>
+        </div>
       </div>
     </section>
   );
