@@ -38,7 +38,7 @@ const About = () => {
             developer, on a mission to make the web more intuitive, faster, and
             beautifully crafted. I specialize in Next.js, React, Tailwind CSS,
             and JavaScript, creating scalable products with interfaces that
-            aren&apos;t just functional—they tell a story.
+            aren&apos;t just functional, they tell a story.
           </p>
 
           {/* Extra paragraphs (hidden until expanded) */}
