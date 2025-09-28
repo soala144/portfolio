@@ -42,7 +42,7 @@ const Hero = () => {
   return (
     <div className="h-screen pt-30 border border-t-2 mb-12 border-gray-300">
       <div className="bg-[#E1F9DC] w-[38%] md:w-[18%]  m-auto rounded-3xl pl-5 md:pr-3 flex items-center  p-2 md:p-4 gap-2">
-        <div className="bg-[#178D00] rounded-full w-[13px] h-3"></div>
+        <div className="bg-[#178D00] rounded-full w-3 h-3"></div>
         <p className="text-[#178D00] md:block hidden">
           Available for collaborations
         </p>
