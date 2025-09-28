@@ -136,7 +136,7 @@ const Projects = () => {
         {projects.map((project, index) => (
           <motion.div
             key={project.id}
-            className={`grid grid-cols-1 border-2 px-2 py-6 rounded-xl border-gray-400 group-hover:border-gray-500 lg:grid-cols-2 gap-12 items-center ${
+            className={`grid grid-cols-1 border-2 md:border-none px-2 py-6 rounded-xl border-gray-400 group-hover:border-gray-500 lg:grid-cols-2 gap-12 items-center ${
               index % 2 === 1 ? "lg:grid-flow-col-dense" : ""
             }`}
             initial={{ opacity: 0, y: 40 }}
