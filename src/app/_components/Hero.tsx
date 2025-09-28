@@ -1,3 +1,4 @@
+import { ArrowDownRight } from "lucide-react";
 import Image from "next/image";
 import React from "react";
 import Marquee from "react-fast-marquee";
@@ -39,9 +40,9 @@ const Hero = () => {
   ];
 
   return (
-    <div className="h-screen pt-30">
-      <div className="bg-[#E1F9DC] w-[38%] md:w-[18%] ml-2 md:m-auto rounded-3xl pl-5 md:pr-3 flex items-center  p-2 md:p-4 gap-2">
-        <div className="bg-[#178D00] rounded-full w-3 h-3"></div>
+    <div className="h-screen pt-30 border border-t-2 mb-12 border-gray-300">
+      <div className="bg-[#E1F9DC] w-[38%] md:w-[18%]  m-auto rounded-3xl pl-5 md:pr-3 flex items-center  p-2 md:p-4 gap-2">
+        <div className="bg-[#178D00] rounded-full w-[13px] h-3"></div>
         <p className="text-[#178D00] md:block hidden">
           Available for collaborations
         </p>
@@ -88,9 +89,15 @@ const Hero = () => {
               ))}
             </Marquee>
           </div>
-          <div className="pt-6">
+          <div className="pt-14 flex gap-3">
             <button className="bg-black text-white py-[14px] px-[24px] rounded-xl text-[16px] hover:opacity-90 duration-[300ms] transition-all hover:px-[28px] ml-1">
-              Hire Me!
+              Hire Me !
+            </button>
+            <button className="bg-white flex text-black gap-3 py-[14px] px-[20px] rounded-xl text-[16px] border border-black hover:opacity-90 duration-[300ms] transition-all hover:px-[28px] ml-1">
+              My Projects{" "}
+              <span>
+                <ArrowDownRight />
+              </span>
             </button>
           </div>
         </div>
