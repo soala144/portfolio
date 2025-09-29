@@ -125,7 +125,7 @@ const Projects = () => {
   ];
 
   return (
-    <section className="max-w-7xl mx-auto px-6 py-20">
+    <section className="md:w-[87%] max-w-7xl mx-auto px-6 py-20">
       {/* Section Header */}
       <div className="text-center mb-16">
         <motion.div
