@@ -39,55 +39,47 @@ const Projects = () => {
     },
     {
       id: 2,
-      title: "Oscar",
+      title: "NFSHE",
       description:
-        "Real-time monitoring dashboard for embedded systems with live sensor data, device control interfaces, and predictive analytics.",
+        "Redefining luxury with NFTs that certify style, scarcity, and authenticity for every collection.",
       image: "/projects/oscarscreenshot.png",
       liveUrl: "https://oscarscript.vercel.app/",
-      category: "IoT Dashboard",
+      category: "Web App",
       stack: [
         {
           name: "React",
           icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
         },
         {
-          name: "Python",
-          icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg",
+          name: "TypeScript",
+          icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg",
         },
         {
-          name: "MongoDB",
-          icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg",
-        },
-        {
-          name: "Arduino",
-          icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/arduino/arduino-original.svg",
+          name: "Tailwind",
+          icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg",
         },
       ],
     },
     {
       id: 3,
-      title: "CreativeFlow Studio",
+      title: "PAGFOOD",
       description:
-        "Modern design workspace with collaborative tools, asset management, and seamless workflow automation for creative teams.",
+        "A vibrant restaurant platform with interactive menus, smooth ordering flow, and mouth-watering visuals that sell the flavor before the first bite.",
       image: "/projects/PagFoodscreenshot.png",
       liveUrl: "https://www.pagfood.com/",
-      category: "Design Tool",
+      category: "Web App",
       stack: [
         {
-          name: "Vue.js",
-          icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg",
+          name: "React",
+          icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
         },
         {
-          name: "Node.js",
-          icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg",
+          name: "TypeScript",
+          icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg",
         },
         {
-          name: "Firebase",
-          icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg",
-        },
-        {
-          name: "Docker",
-          icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg",
+          name: "Tailwind",
+          icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg",
         },
       ],
     },
@@ -95,7 +87,7 @@ const Projects = () => {
       id: 4,
       title: "RemindMe",
       description:
-        "Intelligent scheduling platform with smart notifications, task automation, and seamless cross-platform synchronization for modern productivity.",
+        "Your personal assistant in app form — syncs tasks, sends intelligent reminders, and adapts to your life so you always stay on track.",
       image: "/projects/adora.png",
       liveUrl: "https://remindme.pxxl.xyz",
       category: "Web App",
