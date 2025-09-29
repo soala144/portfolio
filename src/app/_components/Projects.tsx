@@ -8,18 +8,20 @@ const Projects = () => {
   const projects = [
     {
       id: 1,
-      title: "RemindMe Platform",
+      title: "Adora Sparkle",
       description:
         "Intelligent scheduling platform with smart notifications, task automation, and seamless cross-platform synchronization for modern productivity.",
-      image:
-        "https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=800&h=500&fit=crop&crop=center",
-      liveUrl: "https://remindme-demo.com",
-      githubUrl: "https://github.com/soala/remindme",
+      image: "/projects/adora.png",
+      liveUrl: "https://adora-sparkle.pxxl.xyz",
       category: "Web App",
       stack: [
         {
           name: "Next.js",
           icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg",
+        },
+        {
+          name: "Prisma",
+          icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/prisma/prisma-original.svg",
         },
         {
           name: "TypeScript",
@@ -37,13 +39,11 @@ const Projects = () => {
     },
     {
       id: 2,
-      title: "IoT Control Center",
+      title: "Oscar",
       description:
         "Real-time monitoring dashboard for embedded systems with live sensor data, device control interfaces, and predictive analytics.",
-      image:
-        "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=500&fit=crop&crop=center",
-      liveUrl: "https://iot-center-demo.com",
-      githubUrl: "https://github.com/soala/iot-center",
+      image: "/projects/oscarscreenshot.png",
+      liveUrl: "https://oscarscript.vercel.app/",
       category: "IoT Dashboard",
       stack: [
         {
@@ -69,10 +69,8 @@ const Projects = () => {
       title: "CreativeFlow Studio",
       description:
         "Modern design workspace with collaborative tools, asset management, and seamless workflow automation for creative teams.",
-      image:
-        "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&h=500&fit=crop&crop=center",
-      liveUrl: "https://creativeflow-demo.com",
-      githubUrl: "https://github.com/soala/creativeflow",
+      image: "/projects/PagFoodscreenshot.png",
+      liveUrl: "https://www.pagfood.com/",
       category: "Design Tool",
       stack: [
         {
@@ -90,6 +88,37 @@ const Projects = () => {
         {
           name: "Docker",
           icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg",
+        },
+      ],
+    },
+    {
+      id: 4,
+      title: "RemindMe",
+      description:
+        "Intelligent scheduling platform with smart notifications, task automation, and seamless cross-platform synchronization for modern productivity.",
+      image: "/projects/adora.png",
+      liveUrl: "https://remindme.pxxl.xyz",
+      category: "Web App",
+      stack: [
+        {
+          name: "Next.js",
+          icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg",
+        },
+        {
+          name: "Prisma",
+          icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/prisma/prisma-original.svg",
+        },
+        {
+          name: "TypeScript",
+          icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg",
+        },
+        {
+          name: "Tailwind",
+          icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg",
+        },
+        {
+          name: "PostgreSQL",
+          icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg",
         },
       ],
     },

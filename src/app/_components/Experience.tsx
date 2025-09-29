@@ -95,7 +95,7 @@ const Experience = () => {
   ];
 
   return (
-    <section className="max-w-7xl mx-auto px-6 py-20">
+    <section className="md:[80%] max-w-7xl mx-auto px-6 py-20">
       {/* Section Header */}
       <div className="text-center mb-20">
         <motion.div

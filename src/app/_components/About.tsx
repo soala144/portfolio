@@ -12,7 +12,7 @@ const About = () => {
   };
 
   return (
-    <section className="max-w-6xl mx-auto px-6 py-16 grid md:grid-cols-2 gap-12 items-center">
+    <section className="md:w-[87%] max-w-6xl mx-auto px-6 py-16 grid md:grid-cols-2 gap-12 items-center">
       {/* Left Side: Text */}
       <div>
         {/* Section Title */}
