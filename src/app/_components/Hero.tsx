@@ -104,21 +104,24 @@ const Hero = () => {
         {/* Main Content - 87% width on desktop */}
         <div className="w-full md:w-[87%] mx-auto px-4 md:px-8 relative z-10">
           {/* Available Badge */}
+          {/* Available Badge */}
           <motion.div
             initial={{ opacity: 0, y: -20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, ease: "easeOut" }}
-            className="bg-[#E1F9DC] w-[38%] md:w-auto m-auto md:mx-0 rounded-3xl pl-5 md:pr-3 flex items-center p-2 md:p-4 gap-2 md:inline-flex"
+            className="bg-[#E1F9DC] w-[50%] md:w-[37%] m-auto md:mx-0 rounded-3xl px-4 py-2 md:px-5 md:py-3 flex items-center justify-center gap-2"
           >
             <motion.div
               animate={{ scale: [1, 1.2, 1] }}
               transition={{ duration: 2, repeat: Infinity, ease: "easeInOut" }}
               className="bg-[#178D00] rounded-full w-3 h-3"
             />
-            <p className="text-[#178D00] md:block hidden">
+            <p className="text-[#178D00] hidden md:block text-sm lg:text-base">
               Available for collaborations
             </p>
-            <p className="text-[#178D00] block md:hidden text-xl">Available</p>
+            <p className="text-[#178D00] block md:hidden text-sm sm:text-base font-medium">
+              Available
+            </p>
           </motion.div>
 
           {/* Profile Image */}
@@ -204,7 +207,7 @@ const Hero = () => {
               transition={{ type: "spring", stiffness: 400, damping: 17 }}
               className="bg-white flex text-black gap-3 py-[14px] px-[20px] cursor-pointer rounded-xl text-[16px] border border-black hover:shadow-lg transition-shadow items-center"
             >
-              My Projects
+              <a href="#projects">My Projects</a>
               <motion.span
                 animate={{ x: [0, 5, 0], y: [0, 5, 0] }}
                 transition={{

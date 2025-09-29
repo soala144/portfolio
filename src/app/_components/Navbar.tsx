@@ -66,7 +66,7 @@ const Navbar = () => {
 
           {/* GitHub logo */}
           <motion.a
-            href="https://github.com/yourusername"
+            href="https://github.com/soala144"
             target="_blank"
             rel="noopener noreferrer"
             whileHover={{ scale: 1.15, rotate: -5 }}
