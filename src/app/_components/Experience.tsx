@@ -16,81 +16,97 @@ const Experience = () => {
   const experiences = [
     {
       id: 1,
-      company: "RemindMe Technologies",
+      company: "RemindMe",
       position: "Co-Founder & Full Stack Developer",
       duration: "2025 - Present",
       location: "Port Harcourt, Nigeria",
       type: "Startup",
       description:
         "Leading the technical vision and development of an intelligent scheduling platform. Built scalable architecture serving thousands of users with real-time notifications and cross-platform synchronization.",
-      logo: "remindmelogo.jng",
+      logo: "/remindmelogo.jpg",
       achievements: [
-        "Architected microservices handling 10K+ daily active users",
-        "Reduced notification latency by 85% through optimization",
-        "Led team of 4 developers using agile methodologies",
+        "Architected the entire reminder system from scratch",
+        "Handles the management of database and server infrastructure",
+        "Led team of 3 developers using agile methodologies",
       ],
-      technologies: ["Next.js", "TypeScript", "PostgreSQL", "Redis", "Docker"],
-      website: "https://remindme.com",
+      technologies: [
+        "Next.js",
+        "TypeScript",
+        "PostgreSQL",
+        "Redis",
+        "Docker",
+        "Supabase",
+        "Prisma",
+      ],
+      website: "https://remindme.pxxl.xyz",
     },
     {
       id: 2,
-      company: "TechHub Rivers",
-      position: "Embedded Systems Developer",
-      duration: "2022 - 2023",
-      location: "Port Harcourt, Nigeria",
-      type: "Tech Hub",
-      description:
-        "Developed IoT solutions for smart city initiatives and industrial automation. Collaborated with hardware teams to create seamless software-hardware integrations for monitoring systems.",
-      logo: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=100&h=100&fit=crop&crop=center",
-      achievements: [
-        "Deployed 50+ IoT sensors across the city infrastructure",
-        "Reduced system downtime by 60% with predictive analytics",
-        "Mentored 12 junior developers in embedded programming",
-      ],
-      technologies: ["C/C++", "Python", "Arduino", "Raspberry Pi", "MQTT"],
-      website: "https://techhubrivers.com",
-    },
-    {
-      id: 3,
-      company: "Digital Craft Nigeria",
+      company: "XnyderHQ",
       position: "Frontend Developer",
-      duration: "2021 - 2022",
+      duration: "2025 - present",
       location: "Port Harcourt, Nigeria",
-      type: "Agency",
+      type: "Tech Company",
       description:
-        "Crafted responsive web applications and user interfaces for diverse clients. Specialized in modern JavaScript frameworks and performance optimization for e-commerce and business websites.",
-      logo: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=100&h=100&fit=crop&crop=center",
+        "Built and optimized user-friendly web interfaces for XnyderHQ’s digital products. Focused on creating responsive designs, seamless user experiences, and scalable frontend architectures while collaborating closely with backend engineers and designers.",
+      logo: "/xnyder.jpg",
       achievements: [
-        "Delivered 25+ client projects with 98% satisfaction rate",
-        "Improved average site performance by 40%",
-        "Established component library used across all projects",
+        "Developed and refined the company’s admin dashboard using React and Tailwind CSS",
+        "Improved UI performance and accessibility across multiple projects",
+        "Collaborated with cross-functional teams to integrate APIs and deliver key product features",
       ],
       technologies: [
         "React",
-        "Vue.js",
-        "Tailwind CSS",
+        "Next.js",
+        "StyleXUI",
         "JavaScript",
-        "Webpack",
+        "Git",
+        "TypeScript",
       ],
-      website: "https://digitalcraft.ng",
+      website: "https://xnyder.com",
     },
+    {
+      id: 3,
+      company: "Ini Technoid Services",
+      position: "Web Developer & Embedded Systems Tutor",
+      duration: "2023 - 2024",
+      location: "Port Harcourt, Nigeria",
+      type: "Tech Services & Training",
+      description:
+        "Contributed to building modern web solutions for clients while also tutoring embedded systems and mentoring young learners in technology. Played a dual role in both software development and hands-on technical education.",
+      logo: "/initechnoid.png",
+      achievements: [
+        "Developed and deployed responsive websites for clients using modern frontend tools",
+        "Tutored embedded systems concepts, guiding students through practical Arduino and IoT projects",
+        "Mentored children in tech, sparking interest and building foundational programming skills",
+      ],
+      technologies: ["React", "JavaScript", "Tailwind CSS", "Arduino", "Git"],
+      website: "https://initechnoids.com.ng/",
+    },
+
     {
       id: 4,
       company: "Self-Employed",
       position: "Freelance Developer",
-      duration: "2020 - 2021",
+      duration: "2024 - present",
       location: "Port Harcourt, Nigeria",
       type: "Freelance",
       description:
-        "Started my journey building custom solutions for local businesses. Focused on learning modern web technologies while delivering value to small businesses transitioning online.",
-      logo: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&h=100&fit=crop&crop=center",
+        "Currently building projects and exploring freelance opportunities using modern web technologies. Focused on delivering clean, scalable, and responsive solutions while sharpening my skills with real-world use cases.",
+      logo: "/cartoonImg.jpg",
       achievements: [
-        "Built 15+ websites for local businesses",
-        "Generated $10K+ in revenue while learning",
-        "Established long-term client relationships",
+        "Experimented with building full-stack applications using Next.js, Tailwind, Prisma, and Supabase",
+        "Created personal and practice projects to strengthen problem-solving and design skills",
+        "Started taking on small freelance tasks to gain industry experience",
       ],
-      technologies: ["HTML", "CSS", "JavaScript", "PHP", "WordPress"],
-      website: "#",
+      technologies: [
+        "Next.js",
+        "Tailwind CSS",
+        "TypeScript",
+        "Prisma",
+        "Supabase",
+      ],
+      website: "https://soaladev.vercel.app",
     },
   ];
 
@@ -151,13 +167,7 @@ const Experience = () => {
               <div className="absolute left-4 md:left-1/2 w-4 h-4 bg-black rounded-full transform -translate-x-2 md:-translate-x-2 z-10 ring-4 ring-white"></div>
 
               {/* Company Logo & Info */}
-              <div
-                className={`ml-12 md:ml-0 ${
-                  index % 2 === 1
-                    ? "md:col-start-2 md:text-left"
-                    : "md:text-right"
-                }`}
-              >
+              <div className={`ml-12 md:ml-0}`}>
                 <div
                   className={`inline-block p-6 border border-gray-200 rounded-3xl bg-white hover:border-gray-300 transition-all duration-300 group ${
                     index % 2 === 1 ? "md:ml-8" : "md:mr-8"
