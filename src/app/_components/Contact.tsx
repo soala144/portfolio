@@ -1,34 +1,34 @@
 "use client";
 import React from "react";
 import { motion } from "framer-motion";
-import { Mail, MessageSquare, Instagram, Send } from "lucide-react";
+import { Mail, Instagram, Send } from "lucide-react";
 import { FaWhatsapp } from "react-icons/fa6";
 import { SiX } from "react-icons/si";
-import Image from "next/image";
+
 const Contact = () => {
   const contactMethods = [
     {
       icon: FaWhatsapp,
       name: "WhatsApp",
-      url: "https://wa.me/234XXXXXXXXX",
+      url: "  https://wa.me/2348124554767?text=Hi%20%3CSoalaDev%20/%3E%20I%20came%20across%20your%20portfolio%20and%20would%20love%20to%20work%20with%20you.",
       color: "hover:text-green-600",
     },
     {
       icon: Instagram,
       name: "Instagram",
-      url: "https://instagram.com/soaladev",
+      url: "https://instagram.com/144_s.soso",
       color: "hover:text-pink-500",
     },
     {
       icon: Mail,
       name: "Email",
-      url: "mailto:soala@soaladev.com",
+      url: "mailto:soala144@gmail.com",
       color: "hover:text-gray-900",
     },
     {
       icon: SiX,
       name: "X",
-      url: "https://x.com/soaladev",
+      url: "https://x.com/144_soala",
       color: "hover:text-black",
     },
   ];

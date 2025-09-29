@@ -54,7 +54,7 @@ const Navbar = () => {
         <div className="flex items-center gap-3 sm:gap-4 md:gap-5 text-gray-900">
           {/* X logo */}
           <motion.a
-            href="https://twitter.com"
+            href="https://x.com/144_soala"
             target="_blank"
             rel="noopener noreferrer"
             whileHover={{ scale: 1.15, rotate: 5 }}

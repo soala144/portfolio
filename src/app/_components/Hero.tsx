@@ -199,7 +199,7 @@ const Hero = () => {
               transition={{ type: "spring", stiffness: 400, damping: 17 }}
               className="bg-black text-white py-[14px] px-[24px] rounded-xl text-[16px] cursor-pointer hover:shadow-lg transition-shadow"
             >
-              Hire Me !
+              <a href="mailto:soala144@gmail.com"> Hire Me !</a>
             </motion.button>
             <motion.button
               whileHover={{ scale: 1.05, x: 5 }}

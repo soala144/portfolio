@@ -71,7 +71,7 @@ const Experience = () => {
       position: "Web Developer & Embedded Systems Tutor",
       duration: "2023 - 2024",
       location: "Port Harcourt, Nigeria",
-      type: "Tech Services & Training",
+      type: "Tech Training",
       description:
         "Contributed to building modern web solutions for clients while also tutoring embedded systems and mentoring young learners in technology. Played a dual role in both software development and hands-on technical education.",
       logo: "/initechnoid.png",
