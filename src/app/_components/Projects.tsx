@@ -10,7 +10,7 @@ const Projects = () => {
       id: 1,
       title: "Adora Sparkle",
       description:
-        "Intelligent scheduling platform with smart notifications, task automation, and seamless cross-platform synchronization for modern productivity.",
+        "A premium jewelry storefront with refined visuals, effortless browsing, and checkout that feels like luxury in every click.",
       image: "/projects/adora.png",
       liveUrl: "https://adora-sparkle.pxxl.xyz",
       category: "Web App",
@@ -29,7 +29,7 @@ const Projects = () => {
         },
         {
           name: "Tailwind",
-          icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg",
+          icon: "/tailwind.png",
         },
         {
           name: "PostgreSQL",
@@ -56,7 +56,7 @@ const Projects = () => {
         },
         {
           name: "Tailwind",
-          icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg",
+          icon: "/tailwind.png",
         },
       ],
     },
@@ -79,7 +79,7 @@ const Projects = () => {
         },
         {
           name: "Tailwind",
-          icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg",
+          icon: "/tailwind.png",
         },
       ],
     },
@@ -88,7 +88,7 @@ const Projects = () => {
       title: "RemindMe",
       description:
         "Your personal assistant in app form — syncs tasks, sends intelligent reminders, and adapts to your life so you always stay on track.",
-      image: "/projects/adora.png",
+      image: "/projects/remindme.png",
       liveUrl: "https://remindme.pxxl.xyz",
       category: "Web App",
       stack: [
@@ -106,7 +106,7 @@ const Projects = () => {
         },
         {
           name: "Tailwind",
-          icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg",
+          icon: "/tailwind.png",
         },
         {
           name: "PostgreSQL",

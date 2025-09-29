@@ -18,12 +18,12 @@ const Experience = () => {
       id: 1,
       company: "RemindMe Technologies",
       position: "Co-Founder & Full Stack Developer",
-      duration: "2023 - Present",
+      duration: "2025 - Present",
       location: "Port Harcourt, Nigeria",
       type: "Startup",
       description:
         "Leading the technical vision and development of an intelligent scheduling platform. Built scalable architecture serving thousands of users with real-time notifications and cross-platform synchronization.",
-      logo: "https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=100&h=100&fit=crop&crop=center",
+      logo: "remindmelogo.jng",
       achievements: [
         "Architected microservices handling 10K+ daily active users",
         "Reduced notification latency by 85% through optimization",
