@@ -2,12 +2,13 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { Mail, MessageSquare, Instagram, Send } from "lucide-react";
+import { FaWhatsapp } from "react-icons/fa6";
 import { SiX } from "react-icons/si";
 import Image from "next/image";
 const Contact = () => {
   const contactMethods = [
     {
-      image: "/whatsappIcon.svg",
+      icon: FaWhatsapp,
       name: "WhatsApp",
       url: "https://wa.me/234XXXXXXXXX",
       color: "hover:text-green-600",
@@ -85,17 +86,7 @@ const Contact = () => {
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.4, delay: 0.5 + index * 0.1 }}
           >
-            {method.icon ? (
-              <method.icon className="w-7 h-7" />
-            ) : (
-              <Image
-                src={method.image}
-                alt={method.name}
-                className="w-7 h-7"
-                width={7}
-                height={7}
-              />
-            )}
+            <method.icon className="w-7 h-7" />
           </motion.a>
         ))}
       </motion.div>
