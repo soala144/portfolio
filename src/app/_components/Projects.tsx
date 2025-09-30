@@ -11,7 +11,7 @@ const Projects = () => {
       title: "Adora Sparkle",
       description:
         "A premium jewelry storefront with refined visuals, effortless browsing, and checkout that feels like luxury in every click.",
-      image: "/projects/adora.png",
+      image: "/adora.PNG",
       liveUrl: "https://adora-sparkle.pxxl.xyz",
       category: "Web App",
       stack: [
@@ -42,7 +42,7 @@ const Projects = () => {
       title: "NFSHE",
       description:
         "Redefining luxury with NFTs that certify style, scarcity, and authenticity for every collection.",
-      image: "/projects/nfshe.png",
+      image: "/nfshe.PNG",
       liveUrl: "https://nfshe.vercel.app/",
       category: "Web App",
       stack: [
@@ -65,7 +65,7 @@ const Projects = () => {
       title: "PAGFOOD",
       description:
         "A vibrant restaurant platform with interactive menus, smooth ordering flow, and mouth-watering visuals that sell the flavor before the first bite.",
-      image: "/projects/PagFoodscreenshot.png",
+      image: "/PagFoodscreenshot.PNG",
       liveUrl: "https://www.pagfood.com/",
       category: "Web App",
       stack: [
@@ -117,7 +117,10 @@ const Projects = () => {
   ];
 
   return (
-    <section className="w-[95%] md:w-[87%] max-w-7xl mx-auto px-4 sm:px-6 py-16 sm:py-20" id="projects">
+    <section
+      className="w-[95%] md:w-[87%] max-w-7xl mx-auto px-4 sm:px-6 py-16 sm:py-20"
+      id="projects"
+    >
       {/* Section Header */}
       <div className="text-center mb-12 sm:mb-16">
         <motion.div
