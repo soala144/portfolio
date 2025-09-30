@@ -86,7 +86,7 @@ const Contact = () => {
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.4, delay: 0.5 + index * 0.1 }}
           >
-            <method.icon className="w-7 h-7 text-black" />
+            <method.icon className="w-7 h-7" color="black" />
           </motion.a>
         ))}
       </motion.div>
