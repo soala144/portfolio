@@ -129,7 +129,7 @@ const Projects = () => {
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.5 }}
         >
-          <Code className="w-4 h-4 sm:w-5 sm:h-5" />
+          <Code className="w-4 h-4 sm:w-5 sm:h-5" color="black" />
           <span className="text-xs sm:text-sm font-medium text-gray-600">
             Featured Work
           </span>

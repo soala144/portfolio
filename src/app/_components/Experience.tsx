@@ -120,7 +120,7 @@ const Experience = () => {
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.5 }}
         >
-          <Briefcase className="w-4 h-4" />
+          <Briefcase className="w-4 h-4" color="black" />
           <span className="text-sm font-medium text-gray-600">
             Career Journey
           </span>
