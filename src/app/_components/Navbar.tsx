@@ -43,7 +43,7 @@ const Navbar = () => {
         {/* Brand / Name */}
         <motion.a
           href="https://wa.me/+2348124554767"
-          className="no-underline text-lg sm:text-xl md:text-2xl font-bold text-gray-900 tracking-tight"
+          className="no-underline text-lg sm:text-xl md:text-3xl font-bold text-gray-900 tracking-tight"
           whileHover={{ scale: 1.05 }}
           transition={{ type: "spring", stiffness: 400, damping: 17 }}
         >
@@ -61,7 +61,7 @@ const Navbar = () => {
             whileTap={{ scale: 0.95 }}
             transition={{ type: "spring", stiffness: 400, damping: 17 }}
           >
-            <SiX className="w-4 h-4 sm:w-5 sm:h-5 md:w-6 md:h-6 lg:w-7 lg:h-7" />
+            <SiX className="w-3 h-3 sm:w-5 sm:h-5 md:w-6 md:h-6 lg:w-7 lg:h-7" />
           </motion.a>
 
           {/* GitHub logo */}
@@ -73,7 +73,7 @@ const Navbar = () => {
             whileTap={{ scale: 0.95 }}
             transition={{ type: "spring", stiffness: 400, damping: 17 }}
           >
-            <SiGithub className="w-4 h-4 sm:w-5 sm:h-5 md:w-6 md:h-6 lg:w-7 lg:h-7" />
+            <SiGithub className="w-3 h-3 sm:w-5 sm:h-5 md:w-6 md:h-6 lg:w-7 lg:h-7" />
           </motion.a>
 
           {/* Resume download */}
@@ -84,7 +84,7 @@ const Navbar = () => {
             whileTap={{ scale: 0.95 }}
             transition={{ type: "spring", stiffness: 400, damping: 17 }}
           >
-            <FileText className="w-4 h-4 sm:w-5 sm:h-5 md:w-6 md:h-6 lg:w-7 lg:h-7" />
+            <FileText className="w-3 h-3 sm:w-5 sm:h-5 md:w-6 md:h-6 lg:w-7 lg:h-7" />
           </motion.a>
         </div>
       </motion.div>
