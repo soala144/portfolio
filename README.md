@@ -1,1 +1,1 @@
-The protfolio of <SoalaDev/> showing the my skills and everything anout me .
+The portfolio of <SoalaDev/> showing my skills and everything anout me .
