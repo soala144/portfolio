@@ -114,6 +114,37 @@ const Projects = () => {
         },
       ],
     },
+    {
+      id: 5,
+      title: "CareSync",
+      description:
+        "A smart hospital management system built to reduce patient wait times by 50%. CareSync integrates AI-assisted scheduling, real-time doctor-patient communication, and analytics dashboards to streamline hospital operations and enhance patient care.",
+      image: "/projects/caresync.png", // Replace with your actual image path
+      liveUrl: "https://caresync-demo.vercel.app/", // Replace if hosted
+      category: "HealthTech",
+      stack: [
+        {
+          name: "React",
+          icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
+        },
+        {
+          name: "Tailwind CSS",
+          icon: "/tailwind.png",
+        },
+        {
+          name: "TypeScript",
+          icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg",
+        },
+        {
+          name: "Node.js",
+          icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg",
+        },
+        {
+          name: "MongoDB",
+          icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg",
+        },
+      ],
+    },
   ];
 
   return (

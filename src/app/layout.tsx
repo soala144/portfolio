@@ -1,24 +1,15 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono, Geologica, Poppins } from "next/font/google";
+import { Geologica, Poppins } from "next/font/google"; // ✅ only valid Google fonts
 import "./globals.css";
 import CustomCursor from "./_components/CustomCursor";
 
-// const geistSans = Geist({
-//   variable: "--font-geist-sans",
-//   subsets: ["latin"],
-// });
-
-// const geistMono = Geist_Mono({
-//   variable: "--font-geist-mono",
-//   subsets: ["latin"],
-// });
-
-const geologica_Sans = Geologica({
+const geologicaSans = Geologica({
   variable: "--font-geologica-sans",
   subsets: ["latin"],
   weight: ["400", "500", "600", "700"],
   display: "swap",
 });
+
 const poppins = Poppins({
   subsets: ["latin"],
   weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
@@ -42,7 +33,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${poppins.variable} antialiased`}>
+      <body
+        className={`${poppins.variable} ${geologicaSans.variable} antialiased`}
+      >
         <CustomCursor />
         {children}
       </body>
