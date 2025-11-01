@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Geologica, Poppins } from "next/font/google"; // ✅ only valid Google fonts
 import "./globals.css";
 import CustomCursor from "./_components/CustomCursor";
+import ReactLenis from "lenis/react";
 
 const geologicaSans = Geologica({
   variable: "--font-geologica-sans",
@@ -36,8 +37,16 @@ export default function RootLayout({
       <body
         className={`${poppins.variable} ${geologicaSans.variable} antialiased`}
       >
-        <CustomCursor />
-        {children}
+        <ReactLenis
+          root
+          options={{
+            duration: 0.8,
+            easing: (t) => 1 - Math.pow(1 - t, 3),
+          }}
+        >
+          <CustomCursor />
+          {children}
+        </ReactLenis>
       </body>
     </html>
   );
