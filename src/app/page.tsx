@@ -9,6 +9,7 @@ import Projects from "./_components/Projects";
 import { AnimatePresence } from "framer-motion";
 import Preloader from "./_components/PreLoader";
 
+
 export default function Home() {
   const [isLoading, setIsLoading] = useState<boolean>(true);
   return (
