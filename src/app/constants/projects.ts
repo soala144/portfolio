@@ -155,10 +155,7 @@ export const projects = [
           name: "TypeScript",
           icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg",
         },
-        {
-          name: "Next.js",
-          icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg",
-        },
+       
         {
           name: "Tailwind CSS",
           icon: "/tailwind.png",
