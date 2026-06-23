@@ -18,7 +18,7 @@ const Experience = () => {
     id: 1,
     company: "XnyderHQ",
     position: "Frontend Developer",
-    duration: "2025 - present",
+    duration: "2025 - 2026",
     location: "Port Harcourt, Nigeria",
     type: "Tech Company",
     description:
