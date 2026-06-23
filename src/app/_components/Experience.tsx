@@ -14,101 +14,74 @@ import Image from "next/image";
 
 const Experience = () => {
   const experiences = [
-    {
-      id: 1,
-      company: "RemindMe",
-      position: "Co-Founder & Full Stack Developer",
-      duration: "2025 - Present",
-      location: "Port Harcourt, Nigeria",
-      type: "Startup",
-      description:
-        "Leading the technical vision and development of an intelligent scheduling platform. Built scalable architecture serving thousands of users with real-time notifications and cross-platform synchronization.",
-      logo: "/remindmelogo.jpg",
-      achievements: [
-        "Architected the entire reminder system from scratch",
-        "Handles the management of database and server infrastructure",
-        "Led team of 3 developers using agile methodologies",
-      ],
-      technologies: [
-        "Next.js",
-        "TypeScript",
-        "PostgreSQL",
-        "Redis",
-        "Docker",
-        "Supabase",
-        "Prisma",
-      ],
-      website: "https://remindme.pxxl.xyz",
-    },
-    {
-      id: 2,
-      company: "XnyderHQ",
-      position: "Frontend Developer",
-      duration: "2025 - present",
-      location: "Port Harcourt, Nigeria",
-      type: "Tech Company",
-      description:
-        "Built and optimized user-friendly web interfaces for XnyderHQ’s digital products. Focused on creating responsive designs, seamless user experiences, and scalable frontend architectures while collaborating closely with backend engineers and designers.",
-      logo: "/xnyder.jpg",
-      achievements: [
-        "Developed and refined the company’s admin dashboard using React and Tailwind CSS",
-        "Improved UI performance and accessibility across multiple projects",
-        "Collaborated with cross-functional teams to integrate APIs and deliver key product features",
-      ],
-      technologies: [
-        "React",
-        "Next.js",
-        "StyleXUI",
-        "JavaScript",
-        "Git",
-        "TypeScript",
-      ],
-      website: "https://xnyder.com",
-    },
-    {
-      id: 3,
-      company: "Ini Technoid Services",
-      position: "Web Developer & Embedded Systems Tutor",
-      duration: "2023 - 2024",
-      location: "Port Harcourt, Nigeria",
-      type: "Tech Training",
-      description:
-        "Contributed to building modern web solutions for clients while also tutoring embedded systems and mentoring young learners in technology. Played a dual role in both software development and hands-on technical education.",
-      logo: "/initechnoid.png",
-      achievements: [
-        "Developed and deployed responsive websites for clients using modern frontend tools",
-        "Tutored embedded systems concepts, guiding students through practical Arduino and IoT projects",
-        "Mentored children in tech, sparking interest and building foundational programming skills",
-      ],
-      technologies: ["React", "JavaScript", "Tailwind CSS", "Arduino", "Git"],
-      website: "https://initechnoids.com.ng/",
-    },
-
-    {
-      id: 4,
-      company: "Self-Employed",
-      position: "Freelance Developer",
-      duration: "2024 - present",
-      location: "Port Harcourt, Nigeria",
-      type: "Freelance",
-      description:
-        "Currently building projects and exploring freelance opportunities using modern web technologies. Focused on delivering clean, scalable, and responsive solutions while sharpening my skills with real-world use cases.",
-      logo: "/cartoonImg.jpg",
-      achievements: [
-        "Experimented with building full-stack applications using Next.js, Tailwind, Prisma, and Supabase",
-        "Created personal and practice projects to strengthen problem-solving and design skills",
-        "Started taking on small freelance tasks to gain industry experience",
-      ],
-      technologies: [
-        "Next.js",
-        "Tailwind CSS",
-        "TypeScript",
-        "Prisma",
-        "Supabase",
-      ],
-      website: "https://soaladev.vercel.app",
-    },
-  ];
+  {
+    id: 1,
+    company: "XnyderHQ",
+    position: "Frontend Developer",
+    duration: "2025 - present",
+    location: "Port Harcourt, Nigeria",
+    type: "Tech Company",
+    description:
+      "Built and optimized user-friendly web interfaces for XnyderHQ’s digital products. Focused on creating responsive designs, seamless user experiences, and scalable frontend architectures while collaborating closely with backend engineers and designers.",
+    logo: "/xnyder.jpg",
+    achievements: [
+      "Developed and refined the company’s admin dashboard using React and Tailwind CSS",
+      "Improved UI performance and accessibility across multiple projects",
+      "Collaborated with cross-functional teams to integrate APIs and deliver key product features",
+    ],
+    technologies: [
+      "React",
+      "Next.js",
+      "StyleXUI",
+      "JavaScript",
+      "Git",
+      "TypeScript",
+    ],
+    website: "https://xnyder.com",
+  },
+  {
+    id: 2,
+    company: "Ini Technoid Services",
+    position: "Web Developer & Embedded Systems Tutor",
+    duration: "2023 - 2024",
+    location: "Port Harcourt, Nigeria",
+    type: "Tech Training",
+    description:
+      "Contributed to building modern web solutions for clients while also tutoring embedded systems and mentoring young learners in technology. Played a dual role in both software development and hands-on technical education.",
+    logo: "/initechnoid.png",
+    achievements: [
+      "Developed and deployed responsive websites for clients using modern frontend tools",
+      "Tutored embedded systems concepts, guiding students through practical Arduino and IoT projects",
+      "Mentored children in tech, sparking interest and building foundational programming skills",
+    ],
+    technologies: ["React", "JavaScript", "Tailwind CSS", "Arduino", "Git"],
+    website: "https://initechnoids.com.ng/",
+  },
+  {
+    id: 3,
+    company: "Self-Employed",
+    position: "Freelance Developer",
+    duration: "2024 - present",
+    location: "Port Harcourt, Nigeria",
+    type: "Freelance",
+    description:
+      "Currently building projects and exploring freelance opportunities using modern web technologies. Focused on delivering clean, scalable, and responsive solutions while sharpening my skills with real-world use cases.",
+    logo: "/cartoonImg.jpg",
+    achievements: [
+      "Experimented with building full-stack applications using Next.js, Tailwind, Prisma, and Supabase",
+      "Created personal and practice projects to strengthen problem-solving and design skills",
+      "Started taking on small freelance tasks to gain industry experience",
+    ],
+    technologies: [
+      "Next.js",
+      "Tailwind CSS",
+      "TypeScript",
+      "Prisma",
+      "Supabase",
+    ],
+    website: "https://soaladev.vercel.app",
+  },
+];
 
   return (
     <section className="md:w-[87%] max-w-7xl mx-auto px-6 py-20">
