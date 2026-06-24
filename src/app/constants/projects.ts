@@ -63,23 +63,31 @@ export const projects = [
   },
   {
     id: 3,
-    title: "PAGFOOD",
+    title: "Brainstom",
     description:
-      "A vibrant restaurant platform with interactive menus, smooth ordering flow, and mouth-watering visuals that sell the flavor before the first bite.",
-    image: "/PagFoodscreenshot.PNG",
-    liveUrl: "https://www.pagfood.com/",
-    category: "Web App",
+      "A platform where creators and innovators share their ideas, collaborate on projects, and bring their visions to life. Brainstom fosters a community of thinkers and doers, providing them with a platform to push their ideas forward.",
+    image: "/projects/brainstom.png",
+    liveUrl: "https://brainstom.live/",
+    category: "Collaboration Platform",
     stack: [
       {
-        name: "React",
-        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
+        name: "Next.js",
+        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg",
       },
       {
         name: "TypeScript",
         icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg",
       },
       {
-        name: "Tailwind",
+        name: "Express.js",
+        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg",
+      },
+      {
+        name: "MongoDB",
+        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg",
+      },
+      {
+        name: "Tailwind CSS",
         icon: "/tailwind.png",
       },
     ],
@@ -170,35 +178,35 @@ export const projects = [
       },
     ],
   },
-  {
-    id: 7,
-    title: "Adora Sparkle",
-    description:
-      "A premium jewelry storefront with refined visuals, effortless browsing, and checkout that feels like luxury in every click.",
-    image: "/adora.PNG",
-    liveUrl: "https://adora-sparkle.pxxl.xyz",
-    category: "Web App",
-    stack: [
-      {
-        name: "Next.js",
-        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg",
-      },
-      {
-        name: "Prisma",
-        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/prisma/prisma-original.svg",
-      },
-      {
-        name: "TypeScript",
-        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg",
-      },
-      {
-        name: "Tailwind",
-        icon: "/tailwind.png",
-      },
-      {
-        name: "PostgreSQL",
-        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg",
-      },
-    ],
-  },
+  // {
+  //   id: 7,
+  //   title: "Adora Sparkle",
+  //   description:
+  //     "A premium jewelry storefront with refined visuals, effortless browsing, and checkout that feels like luxury in every click.",
+  //   image: "/adora.PNG",
+  //   liveUrl: "https://adora-sparkle.pxxl.xyz",
+  //   category: "Web App",
+  //   stack: [
+  //     {
+  //       name: "Next.js",
+  //       icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg",
+  //     },
+  //     {
+  //       name: "Prisma",
+  //       icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/prisma/prisma-original.svg",
+  //     },
+  //     {
+  //       name: "TypeScript",
+  //       icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg",
+  //     },
+  //     {
+  //       name: "Tailwind",
+  //       icon: "/tailwind.png",
+  //     },
+  //     {
+  //       name: "PostgreSQL",
+  //       icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg",
+  //     },
+  //   ],
+  // },
 ];
