@@ -15,7 +15,38 @@ import Image from "next/image";
 const Experience = () => {
   const experiences = [
   {
-    id: 1,
+  id: 1,
+  company: "Pxxl",
+  position: "Technical Lead",
+  duration: "2026 - Present",
+  location: "Port Harcourt, Nigeria",
+  type: "Technology Company",
+  description:
+    "Lead the technical direction and software development efforts at Pxxl, coordinating engineering activities, guiding developers, and contributing to architecture and implementation decisions across the company's digital products. Work closely with the team to translate product requirements into scalable, maintainable, and production-ready solutions.",
+  logo: "/pxxl.png",
+  achievements: [
+    "Provide technical leadership and direction across software development projects",
+    "Coordinate developers and oversee the implementation of product features from planning through delivery",
+    "Guide architectural and implementation decisions across frontend and backend systems",
+    "Work with Go-based backend services and modern web technologies to build scalable digital products",
+    "Review development work, establish engineering standards, and support developers in solving technical challenges",
+    "Collaborate with product and design teams to translate requirements into practical technical solutions",
+  ],
+  technologies: [
+    "Go",
+    "Tanstack",
+    "TypeScript",
+    "JavaScript",
+    "REST APIs",
+    "PostgreSQL",
+    "Docker",
+    "Git",
+    "GitHub",
+  ],
+  website: "https://pxxl.xyz",
+},
+  {
+    id: 2,
     company: "XnyderHQ",
     position: "Frontend Developer",
     duration: "2025 - 2026",
@@ -40,7 +71,7 @@ const Experience = () => {
     website: "https://xnyder.com",
   },
   {
-    id: 2,
+    id: 3,
     company: "Ini Technoid Services",
     position: "Web Developer & Embedded Systems Tutor",
     duration: "2023 - 2024",
@@ -58,7 +89,7 @@ const Experience = () => {
     website: "https://initechnoids.com.ng/",
   },
   {
-    id: 3,
+    id: 4,
     company: "Self-Employed",
     position: "Freelance Developer",
     duration: "2024 - present",
