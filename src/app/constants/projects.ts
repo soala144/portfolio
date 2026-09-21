@@ -5,7 +5,7 @@ export const projects = [
     description:
       "Premium skincare e-commerce platform with intelligent cart synchronization, seamless OAuth authentication, and enterprise-grade performance optimizations that deliver luxury shopping experiences at scale.",
     image: "/projects/dermavelle.png", // Add your screenshot
-    liveUrl: "https://dermavelle.pxxl.xyz", // Replace with your actual URL
+    liveUrl: "https://dermavelle.shop", // Replace with your actual URL
     category: "E-Commerce",
     stack: [
       {
